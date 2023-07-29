@@ -1,0 +1,90 @@
+/* Break point */
+
+/* Pc */
+@media (min-width: 64em) {
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+}
+
+/* Mobile */
+@media (max-width:46.1875em) {
+  #header {
+    overflow: hidden;
+  }
+
+  #header .subnav {
+    position: initial;
+    background-color: #333;
+  }
+
+  #header .subnav a {
+    color: #fff;
+    padding: 5px 38px;
+  }
+
+  #header .search-btn {
+    display: none;
+  }
+
+  #header .mobile-menu-btn {
+    display: inline-block;
+  }
+
+  #nav {
+    display: block;
+  }
+
+  #nav > li {
+    display: block;
+  }
+
+  #nav > li:first-child {
+    display: inline-block;
+  }
+
+  #content .member-img {
+    width: 60%;
+  }
+  .s-full-width,
+  .s-col-full {
+    width: 100% !important;
+  }
+
+  .s-mt-8 {
+    margin-top: 8px !important;
+  }
+
+  .contact-form {
+    margin-top: 16px;
+  }
+
+  .modal-container {
+    margin: 0 16px;
+  }
+}
+
+/* Tablet & Mobile*/
+@media (max-width: 1024px) {
+  .btn {
+    padding: 15px 16px;
+  }
+
+  .contact-form .form-control {
+    padding: 15px;
+  }
+
+  .socials-list {
+    font-size: 48px;
+  }
+
+  #footer .socials-list a {
+    margin: 0 8px;
+  }
+
+  #footer .copyright a {
+    padding: 8px 0;
+    display: inline-block;
+  }
+}
